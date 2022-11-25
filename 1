@@ -1,0 +1,36 @@
+<IDOCTYPE html>
+<html>
+
+<title›1103537</title›
+
+<head></head›
+‹style›
+div.a{
+  width: 100px;
+  height: 100px;
+  background: yellow;
+  transition-property: width;
+  transition-duration: 1s;
+}
+div.b{
+  width: 100px;
+  height: 100px;
+  background: pink;
+  transition-property: width, height;
+  transition-duration: width 1s, height 1s;
+}
+div.a:hover {
+  width: 500px;
+}
+div.b:hover {
+  width: 500px;
+  height: 500px;
+</style>
+‹body>
+
+<div class="a">1</div>
+<br>
+‹div class="b">2</div>
+</body>
+</html>
+
